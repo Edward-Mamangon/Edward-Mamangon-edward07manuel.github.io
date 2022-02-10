@@ -36,6 +36,20 @@ input[type="text"], input[type="email"], textarea{
     }
 }
 
+input[type="submit"]{
+    background-color:#d1464b;
+    border:0;
+    padding: 8px 0px;
+    border-radius: 5px;
+    color: whitesmoke
+}
+
+input[type="submit"]:hover{
+    background-color: #b3272a;
+    transition: 0.3s;
+    color: white;
+}
+
 // ------------End Contact styles ------------------/
 
 // ------------------Media Query---------------/

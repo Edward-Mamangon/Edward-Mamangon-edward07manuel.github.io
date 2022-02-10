@@ -154,6 +154,20 @@ input[type=text]:focus, input[type=email]:focus, textarea:focus {
   transition: 0.3s;
 }
 
+input[type=submit] {
+  background-color: #d1464b;
+  border: 0;
+  padding: 8px 0px;
+  border-radius: 5px;
+  color: whitesmoke;
+}
+
+input[type=submit]:hover {
+  background-color: #b3272a;
+  transition: 0.3s;
+  color: white;
+}
+
 /* --------small screens------------------- */
 @media (max-width: 575.98px) {
   .form-container {
