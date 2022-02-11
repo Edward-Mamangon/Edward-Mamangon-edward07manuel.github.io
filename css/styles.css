@@ -325,6 +325,14 @@ a {
   cursor: pointer;
 }
 
+.display-7 {
+  font-size: 1.7rem;
+}
+
+h5.display-7 {
+  font-size: 2rem;
+}
+
 .contact-container {
   background-image: url("../images/contact-bg.jpg");
   display: grid;
