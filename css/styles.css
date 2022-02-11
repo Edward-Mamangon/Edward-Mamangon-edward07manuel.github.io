@@ -163,7 +163,8 @@ a {
   margin: 20px;
 }
 
-.sub-category h6, .more-stories h6 {
+.sub-category h6,
+.more-stories h6 {
   font-size: 1.2rem;
   letter-spacing: 1.5px;
 }
@@ -318,9 +319,10 @@ a {
 }
 
 .shadow:hover {
-  box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.6);
-  border: 2px solid #2d7581;
+  box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.6);
+  border: 1.5px solid #c7c7c7;
   transition: 0.3s;
+  cursor: pointer;
 }
 
 .contact-container {
@@ -353,8 +355,8 @@ a {
   transition: 0.3s;
 }
 
-/* ----------------Media Queries-------------- */
-/* -------------------------------------------- */
+/* ----------------Media Queries------------- */
+/* ------------------------------------------ */
 /* --------Large screens------------------- */
 @media (max-width: 1199.98px) {
   .sub-article {
