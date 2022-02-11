@@ -325,12 +325,20 @@ a {
   cursor: pointer;
 }
 
-.display-7 {
-  font-size: 1.7rem;
+.about-title, .about {
+  text-align: center;
+  color: #3d3d3d;
+  margin-bottom: 2rem;
 }
 
-h5.display-7 {
+.about-title {
   font-size: 2rem;
+  font-weight: bold;
+}
+
+.about {
+  font-size: 1.5rem;
+  font-style: italic;
 }
 
 .contact-container {
