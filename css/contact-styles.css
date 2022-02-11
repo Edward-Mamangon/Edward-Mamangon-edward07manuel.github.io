@@ -1,3 +1,7 @@
+.navbar {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.25);
+}
+
 @media (max-width: 991.98px) {
   .offcanvas-collapse {
     position: fixed;
@@ -128,6 +132,10 @@
 body {
   padding-top: 56px;
   overflow-x: hidden;
+}
+
+.navbar {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.25);
 }
 
 .form-container {

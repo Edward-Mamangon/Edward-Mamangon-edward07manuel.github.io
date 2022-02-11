@@ -7,6 +7,10 @@ body {
     overflow-x:hidden; // Prevent scroll on narrow devices 
 }
 
+.navbar{
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .25);
+  }
+
 .form-container{
     display: grid;
     justify-content: center;
